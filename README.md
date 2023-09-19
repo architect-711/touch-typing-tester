@@ -6,7 +6,9 @@ Programm for touch typing testing.
 
 ## What does that application do?
 
-Programm shows a letter from a letter dictionary and use writes that letter in input field.
+Programm shows a letter in uppercase from a letter dictionary and use writes that letter in input field, and don't worry it is case insensitive.
+
+Letters: qwertyuiop[]asdfghjkl;'zxcvbnm,./
 
 ## Technologies
 
@@ -27,4 +29,4 @@ Dowload the zip architve, unpack that and double click on **index.html** file.
 
 # How to use the Project
 
-Just click on the input field and type the showen letter. Program is case insensitive.
+Just click on the input field and type the showen letter.

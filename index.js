@@ -1,6 +1,6 @@
 (() => {
     try {
-        const WORDS_DICTIONARY = ['y', 'u'];
+        const WORDS_DICTIONARY = "qwertyuiop[]asdfghjkl;'zxcvbnm,./".split("");
         
         const inputElement          = document.querySelector(".key-input");
         const keyHeaderElement      = document.getElementById("key");
