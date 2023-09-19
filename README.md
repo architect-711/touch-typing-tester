@@ -6,7 +6,7 @@ Programm for touch typing testing.
 
 ## What does that application do?
 
-Programm shows a letter in uppercase from a letter dictionary and use writes that letter in input field, and don't worry it is case insensitive.
+Programm shows a words in uppercase from a symbol dictionary and use writes that symbol in input field, and don't worry it is case insensitive.
 
 Letters: qwertyuiop[]asdfghjkl;'zxcvbnm,./
 
