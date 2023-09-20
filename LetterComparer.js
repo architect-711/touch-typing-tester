@@ -1,17 +1,17 @@
-class LetterChecker {
+class LetterComparer {
     #inputElement;
     #keyHeaderElement;
-    #letterInserter;
+    #letterFactory;
 
     constructor(inputElement, keyHeaderElement, SYMBOL_DICTIONARY) {
-        this.#inputElement          = inputElement;
-        this.#keyHeaderElement      = keyHeaderElement;
+        this.#inputElement      = inputElement;
+        this.#keyHeaderElement  = keyHeaderElement;
 
-        this.#letterInserter = new LetterInserter(this.#keyHeaderElement, SYMBOL_DICTIONARY)
+        this.#letterFactory = new LetterFactory(this.#keyHeaderElement, SYMBOL_DICTIONARY)
     }
 
     run() {
-        this.#letterInserter.insertKey();
+        this.#letterFactory.insertKey();
         this.#setInputListener();
     }
 
@@ -22,7 +22,7 @@ class LetterChecker {
     #reactOnKeyup() {
         if (this.#inputElement.value.toLowerCase() === this.#keyHeaderElement.innerText.toLowerCase()) {
             this.#inputElement.value = "";
-            this.#letterInserter.insertKey();
+            this.#letterFactory.insertKey();
         }
 
     }

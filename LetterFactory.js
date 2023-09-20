@@ -1,10 +1,10 @@
-class LetterInserter {
+class LetterFactory {
     #SYMBOLS_DICTIONARY = [];
     
     #keyHeaderElement;
 
     constructor(keyHeaderElement, SYMBOLS_DICTIONARY) {
-        this.#keyHeaderElement = keyHeaderElement;
+        this.#keyHeaderElement   = keyHeaderElement;
         this.#SYMBOLS_DICTIONARY = SYMBOLS_DICTIONARY;
     }
 

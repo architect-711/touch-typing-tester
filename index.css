@@ -22,11 +22,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-#key {
+#symbols {
     font-size: 1000%;
     font-weight: 500;
 }
-.key-input {
+.symbols-input {
     box-sizing: border-box;
     padding: 10px;
     font-size: 32px;

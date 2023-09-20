@@ -1,4 +1,4 @@
-# LetterChecker
+# Touch typing tester
 
 Programm for touch typing testing.
 

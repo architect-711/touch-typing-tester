@@ -2,12 +2,12 @@
     try {
         const SYMBOLS_DICTIONARY = "qwertyuiop[]asdfghjkl;'zxcvbnm,./".split("");
         
-        const inputElement     = document.querySelector(".key-input");
-        const keyHeaderElement = document.getElementById("key");
+        const inputElement     = document.querySelector(".symbols-input");
+        const keyHeaderElement = document.getElementById("symbols");
         
-        const letterChecker = new LetterChecker(inputElement, keyHeaderElement, SYMBOLS_DICTIONARY);
+        const letterComparer = new LetterComparer(inputElement, keyHeaderElement, SYMBOLS_DICTIONARY);
         
-        letterChecker.run();
+        letterComparer.run();
 
     } catch (error) {
         console.log(`[ERROR] ${error.message}`);
