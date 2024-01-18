@@ -22,10 +22,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 #symbols {
     font-size: 1000%;
     font-weight: 500;
 }
+
 .symbols-input {
     box-sizing: border-box;
     padding: 10px;

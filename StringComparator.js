@@ -3,8 +3,8 @@ class StringComparator {
     #stringContainer;
 
     constructor(inputElement, stringContainer) {
-        this.#inputElement     = inputElement;
-        this.#stringContainer  = stringContainer;
+        this.#inputElement = inputElement;
+        this.#stringContainer = stringContainer;
     }
 
     setInputListener(callBackFun) {
